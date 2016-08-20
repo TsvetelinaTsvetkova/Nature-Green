@@ -1,0 +1,611 @@
+﻿html, body, div, header, img, h1, h2, h3, h4, h5, p, nav, ul, li, a, p, select, option, button, main, section, article, input, aside, footer { 
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+    background:url(/Images/background.png)repeat;
+    font-size:12px;
+}
+
+#wrapper{
+    margin:0 auto;
+    width:990px;
+}
+
+/* ********************** HEADER ***************************** */
+
+header #contact{
+    display:block;
+    float:right;
+    line-height:18px;
+    margin-top:5px;
+}
+
+header #contact p:first-of-type{
+    color:#5C5B59;
+    font-family:Arial;
+    font-size:0.9166666666666666em;
+}
+
+header #contact a{
+    color:#373737;
+    font-family:Arial;
+    font-size:1.5em;
+    text-decoration:none;    
+}
+
+header #logo{
+    display:block;
+    float:left;
+    margin-bottom:20px;
+    margin-top:-40px;
+    width:80%;
+}
+
+#logo img{
+    float:left; 
+    margin-top:15px;
+}
+
+header #logo h1{
+    color:#8A8A8A;
+    display:inline-block;
+    font-family:Myriad Pro, Arial;
+    font-size:2.5em;
+    font-weight:normal;
+    margin-top:35px;
+}
+
+header #logo p{
+    color:#A2A3A6;
+    font-family:Myriad Pro, Arial;
+    padding-left:70px;
+}
+
+header #bird a{
+    color: #9C9A94;  
+    display:inline-block;
+    text-decoration:none;
+    vertical-align:top;
+}
+
+header #bird img{
+   margin-right:-25px;
+   margin-top:-20px;
+}
+
+#bird{
+    display:block;
+    float:right;
+    margin-top:-15px;
+}
+
+#top-navigation {   
+    background:#159831 url(/Images/top-navigation.png)repeat-x;
+    border-radius:3px;
+    margin-left:20px;
+}
+
+ul li{
+    display:inline-block;
+    list-style:none;
+}
+
+ul li a {
+    text-decoration: none;
+   
+}
+
+#top-navigation ul li {
+    margin:5px 10px 5px 5px;
+}
+
+#top-navigation ul li a{
+    color:#F5FCF8;
+    font-family:Verdana;
+    text-decoration:none;
+    text-shadow:1px 1px #0C932F 
+}
+
+header #header-bottom-navigation{
+    border-bottom:1px solid #ffffff;
+    margin:0 0 10px 20px;
+    padding:5px 0px 5px 20px;
+}
+
+header #header-bottom-navigation ul li:first-of-type{
+    margin-left:-10px;
+    padding-right:5px;
+}
+
+header #header-bottom-navigation a{
+    color:#000000;
+ }
+
+header #header-bottom-navigation #special-offers:before{
+    content:url(/Images/img-special-offers.png);
+    padding-right:5px;
+ }
+
+#search{
+    margin: 0 0 10px 30px;
+    width:99%;
+}
+
+#search img{
+    vertical-align:middle;
+    width:2%;    
+}
+    
+#search select{
+    border:none;
+    border:1px solid #E2E9EF;
+    border-top:1px solid #ACADB2;
+    color:#000000;
+    margin-right:5px;
+    padding:1px 0px 1px 1px;
+    width:17%;
+}
+
+#search #select{
+    float:left;
+    width:85%;   
+}
+
+button{
+    line-height:10px;
+ }   
+
+#search button{
+    background:url(/Images/search-button.png)repeat-x;
+    border:1px solid #0C932F;
+    border-radius:3px;
+    color:#ffffff;
+    font-size:1em;
+    height:25px;
+    padding:5px 0 5px 0;
+    width:13%;
+}
+
+/* ********************** MAIN ***************************** */
+
+#main{
+    background:#F5F2ED;
+    border:1px solid #E1DBCE; 
+    border-radius:5px;
+    margin-left:20px;
+    width:98%;
+}
+
+/* ********************** MAIN SECTION ***************************** */
+
+#main section{     
+    background:white;
+    background:url(/Images/section-background.png)repeat;
+    border-bottom-left-radius:5px;
+    border-right:1px solid white;
+    border-top-left-radius:5px;
+    float:left;
+    padding:20px 0 20px 20px;
+    width:76.5%;    
+}
+
+#main section header { 
+    background:url(/Images/world-map.png)no-repeat right;
+    background-size:30%;
+    border-bottom:1px dotted #999999;
+    margin-bottom: 20px; 
+    padding:0 10px 30px 0;
+    width:95%;
+}
+
+#main section header h2{
+    color:#555555;
+    font-size:2em;
+    padding-bottom:10px;   
+}
+
+#main section header p{
+    color:#555555;
+    line-height:20px;
+    width:60%;   
+}
+
+#main section article {
+    float: left;
+    height: 361.111px;
+    margin-right: 10px;
+    width: 47%;
+}
+
+#main section article img {
+    border: 5px solid #E9E6DF;
+    width: 100%;
+}
+    
+#main section article h3{
+    color:#3A3731;
+    font-family:Arial;
+    font-size:1.58em;
+    font-weight:normal;
+    margin:10px 0 10px 0;   
+}
+
+#main section article p{
+    color:#3A3731;    
+    height:15%;
+    width:93%;
+}
+
+#main  span{
+    border:3px solid #E8E5DE;
+    border-radius:6px;
+    display:inline-block;
+    height:7%;
+    margin:20px 0px 50px 0;
+    width:34.8%;
+}
+
+#main section button {
+    font-weight: bold;
+    font-size: 0.73em;
+    background: url(/Images/button.png)repeat-x;
+    border: none;
+    border: 2px solid #0C932F;
+    border-bottom: none;
+    border-radius: 4px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}   
+
+
+/* ********************** MAIN ASIDE***************************** */
+
+#main aside{
+    border-bottom:1px solid #ffffff;
+    float:right;
+    padding-top:10px;
+    width:23.5%;
+}
+
+#main aside h4{
+    color:#3F3B30;
+    font-size:1.17em;
+    padding:0 0 5px 15px;
+}
+
+#main aside nav {
+    border-bottom: 1px solid #E1DBCE;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+#main aside nav ul li{
+    display:block;
+    line-height:20px;
+}
+
+#main aside nav ul li a{
+   color:#555555;
+}
+
+#main aside nav ul li:before{
+    content:url(/Images/bullet.png);
+    padding:0 5px 0 20px; 
+}
+
+#main aside article{
+    border-bottom:1px solid  #E1DBCE;
+    border-top:1px solid #ffffff;
+    padding:10px 0 0 15px;
+}
+
+#main aside article:first-of-type{
+    border-top:0;
+}
+
+#main article h5{
+    color:#3F3B30;
+    font-size:1.16em;
+    padding-top:5px;
+}
+
+#main article p{
+    color:#3F3B30;
+    margin-bottom:10px;
+    width:60%;
+}
+
+#main article input {
+    color: #666666;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #CFCDC5;
+    display: block;
+    font-size: 0.83em;
+    padding: 3px;
+}
+    
+#main article input:first-of-type{
+    padding-right:30px;
+    width:100%;
+}
+
+#main article input:last-of-type{
+    border:1px solid #CFCDC5;
+    display:inline-block;
+    height:100%;
+    width:100%;    
+}
+
+#main aside article span#sign-up {
+    height: 25px;
+    margin: 0;
+    width: 24%;
+}
+
+#main aside article span#email{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:90%;
+}
+
+#main aside article span#text{
+    width:60%;
+}
+
+#main aside button{
+    background:url(/Images/search-button.png)repeat-x;
+    border:none;
+    border:1px solid #0C932F; 
+    border-radius:4px;
+    color:#ffffff;
+    font-size: 0.83em;
+    font-weight: bold;
+    height:100%;
+    width:100%;  
+}
+
+/* ********************** FOOTER ***************************** */
+
+footer{
+    border-top:1px dotted #9D9EA0;
+    margin:10px 0 0 20px;
+    padding:10px 0 40px 0;
+}
+
+footer nav{
+    display:inline-block;
+    width:60%;
+}
+
+footer ul{
+    display:inline-block;
+} 
+
+footer #footer-navigation ul li a{
+    border-left:1px dotted #ffffff;
+    border-right:1px dotted #9D9EA0;
+    color:#66666D;
+    padding-right:5px;
+    padding-left:10px;
+}
+
+footer #footer-navigation ul li:first-of-type a{
+    border-left:none;
+    color:#0E7B27;
+    text-decoration:underline;
+    padding-left:0;
+}
+
+footer #footer-navigation ul li:last-of-type a{
+    border-right:none;
+}
+
+footer p{
+    color:#66666D;
+    display:inline-block;
+    text-align:right;
+    width:39%;    
+}
+
+footer p a{
+    color:#0E7B27;
+}
+
+.clearfix {
+    clear: both;
+}
+   
+@media all and (max-width:990px){
+
+    #wrapper{
+        width:90%;
+    }
+
+    header #search #select select{
+        width:40%;
+   }
+    
+    header #search img{
+        display:none;
+    }
+
+    #main{
+        margin-top:40px; 
+    }
+
+    footer nav {
+        text-align: center;
+        width: 100%;
+    }
+
+   footer p{
+       display:block;
+       text-align:center;
+       width:100%;
+   }
+}
+
+@media all and (max-width:870px){
+       
+    #main aside article span#sign-up{
+        width:50%;
+    }
+}
+
+@media all and (max-width:720px) {
+    
+    #top-navigation {
+        background: #5FBD3D;
+    }
+    
+    #top-navigation ul li {
+        text-align: center;
+        width: 100%;   
+    }
+
+    #main section {
+        width: 100%;
+    }
+    
+    #main section header {
+        background: url(/Images/world-map.png) no-repeat scroll right center / 40%;
+    }
+
+    #main aside {
+        width: 100%;
+    }
+
+    #main aside nav {
+        border-bottom: none;
+    }
+
+    #main aside article {
+        border-bottom: none;
+        float: left;
+        width: 50%;
+    }
+}
+   
+@media all and (max-width:530px) {
+
+    #wrapper{
+        margin:0;
+        padding:0px;
+    }
+
+    header #contact {
+        text-align: center;
+        width: 100%;
+    }
+    
+    header #contact{
+        padding-bottom:40px;
+    }
+
+    header #logo {
+        margin-left: 20px;
+        width: 100%; 
+    }
+    
+    #search {
+        text-align: center;
+        width: 100%;
+    }
+
+    header #search #select {
+        width: 100%;
+    }
+
+    header #search #select select {
+        width: 75%;
+    }
+
+    header #search button {
+        margin-top: 10px;
+        text-align: center;
+        width: 50%;   
+    }
+
+    #main section header {
+        background: url(/Images/world-map.png) no-repeat scroll right center / 45%;
+    }
+    
+    #main section article {
+        width: 100%;
+    }
+
+    footer nav ul li {
+        display: block;
+    }
+
+    footer #footer-navigation ul li a {
+        border: none;
+    }
+
+    footer p a {
+        display: block;
+     }
+}
+
+@media all and (max-width:400px) {
+
+    #wrapper{
+      margin:0;
+      padding:0px; 
+    }
+
+    header #logo {
+        margin-bottom: 50px;
+    }
+    
+    header #logo img {
+        width: 30%;
+    }
+
+    header #logo h1 {
+        width: 100%;
+    }
+
+    header #logo p {
+        padding-left: 0;
+        width: 100%;
+    }
+    header #search #select {
+        width: 90%;
+    }
+     
+    header #search #select select {
+        text-align: left;
+        width: 90%;
+        
+    }
+
+    #main span {
+        margin: 0;
+    }
+
+    #main section article {
+        height: 280px;
+    }
+    
+    #main section article p {
+        overflow: hidden; 
+        padding-bottom: 10px;
+        
+    }
+
+    #main aside article {
+        width: 100%;
+    }
+
+    #main aside article p {
+        width: 100%;
+    }
+}
